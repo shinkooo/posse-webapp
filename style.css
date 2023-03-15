@@ -1,0 +1,92 @@
+@charset "UTF-8";
+html {
+  background-color: #f5f5f8;
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.header-logo {
+  margin: 1% 2%;
+  display: flex;
+  gap: 25px;
+  position: relative;
+  top: 5px;
+}
+
+.header-logo img {
+  width: 160px;
+  height: 32px;
+}
+
+.header-logo_text {
+  position: relative;
+  bottom: 10px;
+  color: #a7c3d7;
+}
+
+.header-blue {
+  display: flex;
+  width: 220px;
+  height: 50px;
+  background-color: #259fdd;
+  border-radius: 50px;
+  margin-top: 1%;
+  margin-right: 2%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(19, 122, 195), rgb(55, 197, 248));
+}
+
+.header-blue_text {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+/*header　終わり*/
+.container {
+  width: 100%;
+}
+
+.container-inner {
+  display: flex;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
+}
+
+.timer div,
+.bar_graph,
+.study_language,
+.study_contents {
+  margin: 10px;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #dbdbdb;
+}
+
+.timer div {
+  width: 100%;
+}
+
+.timer,
+.donuts {
+  display: flex;
+}
+
+.study_language,
+.study_contents {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
